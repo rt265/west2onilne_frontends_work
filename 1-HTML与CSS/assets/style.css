@@ -1,6 +1,6 @@
 body {
     background-color: #dcf3ff;
-    }
+}
 
 .textbox {
     border: 2px solid #5883bc;
@@ -9,4 +9,28 @@ body {
     box-sizing: border-box;
     min-height: 100px;
     overflow: auto;
+}
+
+.SpongeBob {
+    width: 250px;
+    height: 180px;
+    border-radius: 20%;
+    background-color: #f8ce3a;
+    color: white;
+}
+
+.PatrickStar {
+    width: 250px;
+    height: 180px;
+    border-radius: 20%;
+    background-color: #d08079;
+    color: white;
+}
+
+.SquidwardTentacles {
+    width: 250px;
+    height: 180px;
+    border-radius: 20%;
+    background-color: #385f98;
+    color: white;
 }
