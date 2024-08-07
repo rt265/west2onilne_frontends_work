@@ -4,19 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>海绵宝宝和他的朋友们</title>
-    <style>
-        body{
-            background-color: #dcf3ff;
-        }
-        .textbox{
-            border: 2px solid #5883bc;
-            padding: 10px;
-            width: 100%;
-            box-sizing: border-box;
-            min-height: 100px;
-            overflow: auto;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 <body>
 <!-- 导航栏 -->
@@ -28,30 +16,33 @@
         </nav>
     </header>
     <br>
-<!-- 人物介绍-->
-    <main>
+<!-- 主体内容 -->
+    <div>
         <article class="textbox" contenteditable="false">
             <p>海绵宝宝是一只方形的黄色海绵，住在太平洋风光优美无人知道的比基尼海滩水域下。那里是一个没有忧愁的世界，住着一群快乐的海洋生物。</p>
         </article>
-        <br>
-        <label for="#Characters"></label>
-        <div id="#Characters" class="textbox" contenteditable="false">
+    </div>
+    <br>
+<!-- 人物介绍-->
+    <label for="#Characters"></label>
+    <div id="#Characters" >
+        <div id="#SpongeBob" class="textbox" contenteditable="false">
             <h3>海绵宝宝</h3>
             <p>是动画片《海绵宝宝》系列中的主角，超级活泼可爱，给人带来快乐。</p>
         </div>
-        <div class="textbox" contenteditable="false">
+        <div id="#PatrickStar" class="textbox" contenteditable="false">
             <h3>派大星</h3>
             <p>粉红色的海星，很可爱，和海绵宝宝交情最好。</p>
         </div>
-        <div class="textbox" contenteditable="false">
+        <div id="#SquidwardTentacles" class="textbox" contenteditable="false">
             <h3>章鱼哥</h3>
             <p>大鼻子章鱼，对艺术有执着的追求，本质上是一个善良而富有正义感的章鱼。</p>
         </div>
-    </main>
+    </div>
     <br>
 <!-- 系列作品 -->
     <label for="#Episodes"></label>
-    <table>
+    <table id="Episodes">
         <thead>
             <tr>
                 <th scope="col">系列</th>

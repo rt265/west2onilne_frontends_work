@@ -1,0 +1,12 @@
+body {
+    background-color: #dcf3ff;
+    }
+
+.textbox {
+    border: 2px solid #5883bc;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100px;
+    overflow: auto;
+}
