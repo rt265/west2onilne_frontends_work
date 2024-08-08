@@ -1,36 +1,70 @@
 body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: #dcf3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.textbox {
-    border: 2px solid #5883bc;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    min-height: 100px;
-    overflow: auto;
+div {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.SpongeBob {
-    width: 250px;
-    height: 180px;
-    border-radius: 20%;
-    background-color: #f8ce3a;
-    color: white;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 2000px;
+    width: 1800px;
 }
 
-.PatrickStar {
-    width: 250px;
-    height: 180px;
-    border-radius: 20%;
-    background-color: #d08079;
-    color: white;
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 1450px;
+    height: 100px;
 }
 
-.SquidwardTentacles {
-    width: 250px;
-    height: 180px;
-    border-radius: 20%;
-    background-color: #385f98;
-    color: white;
+.To {
+    width: 150px;
+    height: 45px;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 1450px;
+    height: 1000px;
+}
+
+.summary {
+    width: 1450px;
+    height: 300px;
+}
+
+.roles {
+    width: 1450px;
+    height: 600px;
+
+}
+
+.episodes {
+    width: 1450px;
+    height: 400px;
+}
+
+.advice {
+    width: 1450px;
+    height: 400px;
 }
